@@ -1,0 +1,201 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/DDS_Function_Gen
+vBTN_IF
+Z1 !s110 1752752148
+!i10b 1
+!s100 F88a@5V6^d^9g3G64V6iI2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ilia]i1DWJRgKf6<[g@_;n2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1752751147
+8C:/DDS_Function_Gen/DDSFG/src/BTN_IF.v
+FC:/DDS_Function_Gen/DDSFG/src/BTN_IF.v
+!i122 463
+L0 12 43
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1752752148.000000
+!s107 C:/DDS_Function_Gen/DDSFG/src/BTN_IF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/DDS_Function_Gen/DDSFG/src/BTN_IF.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@b@t@n_@i@f
+vclk_div
+R1
+!i10b 1
+!s100 UL=1l2jT59DgOI[GgFgYS1
+R2
+I6IiNlSHNNfD9nCCV<LHIg3
+R3
+R0
+w1752751099
+8C:/DDS_Function_Gen/DDSFG/src/clk_div.v
+FC:/DDS_Function_Gen/DDSFG/src/clk_div.v
+!i122 460
+L0 12 38
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/DDS_Function_Gen/DDSFG/src/clk_div.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/DDS_Function_Gen/DDSFG/src/clk_div.v|
+!i113 1
+R6
+R7
+vDDS_Top
+Z8 !s110 1752752149
+!i10b 1
+!s100 j3?SMRg`M<<4^XL7?R``72
+R2
+If_22i2a2l<4WR4jfYIe2l1
+R3
+R0
+w1752751621
+8C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v
+FC:/DDS_Function_Gen/DDSFG/src/DDS_Top.v
+!i122 464
+L0 12 56
+R4
+r1
+!s85 0
+31
+Z9 !s108 1752752149.000000
+!s107 C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v|
+!i113 1
+R6
+R7
+n@d@d@s_@top
+vpll_module
+R1
+!i10b 1
+!s100 eDji`LP?JF<ihRm:aPd`T1
+R2
+I?[MgG=j06J?:IS5N7OKL33
+R3
+R0
+w1752591662
+8C:/DDS_Function_Gen/DDSFG/src/gowin_rpll/pll_module.v
+FC:/DDS_Function_Gen/DDSFG/src/gowin_rpll/pll_module.v
+!i122 459
+L0 10 56
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/DDS_Function_Gen/DDSFG/src/gowin_rpll/pll_module.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/DDS_Function_Gen/DDSFG/src/gowin_rpll/pll_module.v|
+!i113 1
+R6
+R7
+vRCC
+R1
+!i10b 1
+!s100 d<U=7kG?IR^UJ;<@biGk22
+R2
+IRY5W7I]P4>7AL^8O6AiXP2
+R3
+R0
+w1752751869
+8C:/DDS_Function_Gen/simulation/RCC.v
+FC:/DDS_Function_Gen/simulation/RCC.v
+!i122 462
+L0 3 25
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/DDS_Function_Gen/simulation/RCC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/DDS_Function_Gen/simulation/RCC.v|
+!i113 1
+R6
+R7
+n@r@c@c
+vReset_Gen
+R8
+!i10b 1
+!s100 ]_SCKnFhZP2MNS3JR=8?m1
+R2
+I2:07WdMTRY;njLENUOM7l1
+R3
+R0
+w1752500810
+8C:/DDS_Function_Gen/DDSFG/src/Reset_Gen.v
+FC:/DDS_Function_Gen/DDSFG/src/Reset_Gen.v
+!i122 465
+L0 12 59
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/DDS_Function_Gen/DDSFG/src/Reset_Gen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/DDS_Function_Gen/DDSFG/src/Reset_Gen.v|
+!i113 1
+R6
+R7
+n@reset_@gen
+vSamplingCtrl
+R8
+!i10b 1
+!s100 b?LL^GihDAF`KZe@_@GW:0
+R2
+IEA6T^nchRf2hg0b;c<j0D0
+R3
+R0
+w1752751169
+8C:/DDS_Function_Gen/DDSFG/src/SamplingCtrl.v
+FC:/DDS_Function_Gen/DDSFG/src/SamplingCtrl.v
+!i122 466
+L0 12 102
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/DDS_Function_Gen/DDSFG/src/SamplingCtrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/DDS_Function_Gen/DDSFG/src/SamplingCtrl.v|
+!i113 1
+R6
+R7
+n@sampling@ctrl
+vTestbrench
+R1
+!i10b 1
+!s100 YAOEXhOAfXnib^Yobb<cf1
+R2
+IFH7<6[8cncz_hQ@l4o>o12
+R3
+R0
+w1752752145
+8C:\DDS_Function_Gen\simulation\Testbrench.v
+FC:\DDS_Function_Gen\simulation\Testbrench.v
+!i122 461
+L0 3 92
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:\DDS_Function_Gen\simulation\Testbrench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\DDS_Function_Gen\simulation\Testbrench.v|
+!i113 1
+R6
+R7
+n@testbrench

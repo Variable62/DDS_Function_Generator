@@ -1,0 +1,44 @@
+[
+ {
+  "InstFile" : "C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v",
+  "InstLine" : 12,
+  "InstName" : "DDS_Top",
+  "ModuleFile" : "C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v",
+  "ModuleLine" : 12,
+  "ModuleName" : "DDS_Top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v",
+    "InstLine" : 26,
+    "InstName" : "m_ResetGen",
+    "ModuleFile" : "C:/DDS_Function_Gen/DDSFG/src/Reset_Gen.v",
+    "ModuleLine" : 12,
+    "ModuleName" : "Reset_Gen"
+   },
+   {
+    "InstFile" : "C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v",
+    "InstLine" : 34,
+    "InstName" : "m_pll",
+    "ModuleFile" : "C:/DDS_Function_Gen/DDSFG/src/gowin_rpll/pll_module.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "pll_module"
+   },
+   {
+    "InstFile" : "C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v",
+    "InstLine" : 41,
+    "InstName" : "m_clk_div",
+    "ModuleFile" : "C:/DDS_Function_Gen/DDSFG/src/clk_div.v",
+    "ModuleLine" : 12,
+    "ModuleName" : "clk_div"
+   },
+   {
+    "InstFile" : "C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v",
+    "InstLine" : 48,
+    "InstName" : "m_BtnIf",
+    "ModuleFile" : "C:/DDS_Function_Gen/DDSFG/src/Btn_if.v",
+    "ModuleLine" : 12,
+    "ModuleName" : "BTN_IF"
+   }
+  ]
+ }
+]
