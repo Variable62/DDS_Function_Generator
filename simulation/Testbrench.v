@@ -31,14 +31,14 @@ module Testbrench (
     #1000;
  
     iExtBtn = 1;
-    #1500000;
+    #2400000;
     iExtBtn = 0;
     #500;
     iExtBtn = 1;
-    #240;
+    #2400000;
  
     iExtBtn = 1;
-    #240;
+    #2400000;
     iExtBtn = 0;
     #500;
     iExtBtn = 1;
@@ -54,7 +54,7 @@ module Testbrench (
     iExtBtn = 0;
     #500;
     iExtBtn = 1;
-    #120;
+    #2400000;
  
     iExtBtn = 1;
     #120;
@@ -88,7 +88,7 @@ module Testbrench (
     iExtBtn = 1;
     #2400000;
  
-    $finish;
+  $finish;
   end
   
 endmodule

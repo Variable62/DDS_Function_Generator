@@ -17,15 +17,16 @@ module DDS_Top (
         output      wire    Fg_CLK,
         output      wire    Dac_CLK
 );
-
     wire    wPll_CLK;
     wire    wLock;
     wire    wFg_RESETn;
     wire    wPll_RESETn;
-    wire    woIntBtn;
+    wire    oIntBtn;
     wire    wDDSEnable;
     wire    wDDSMode;
     wire    wDDSReady;
+    wire    [31:0]wout_1;
+    wire    [31:0]wout_2;
 
     Reset_Gen m_ResetGen (
         .Ext_RESETn(Ext_RESETn),
@@ -52,16 +53,28 @@ module DDS_Top (
     BTN_IF m_BtnIf (
         .iExtBtn(iExtBtn),
         .Fg_CLK(Fg_CLK),
-        .oIntBtn(woIntBtn),
+        .oIntBtn(oIntBtn),
         .Ext_RESETn(wFg_RESETn)
     );
 
-    // SamplingCtrl m_samp(
-    //     .Fg_CLK(Fg_CLK),
-    //     .oIntBtn(woIntBtn),
-    //     .Fg_RESETn(wFg_RESETn),
-    //     .DDSEnable(wDDSEnable),
-    //     .DDSReady(wDDSReady),
-    //     .DDSMode(wDDSMode)
-    // );
+    SamplingCtrl m_samp(
+        .Fg_CLK(Fg_CLK),
+        .oIntBtn(oIntBtn),
+        .Fg_RESETn(wFg_RESETn),
+        .DDSEnable(wDDSEnable),
+        .DDSReady(wDDSReady),
+        .DDSMode(wDDSMode)
+    );
+
+    Oscillator m_osc(
+        .Fg_CLK(Fg_CLK),
+        .Fg_RESETn(wFg_RESETn),
+        .DDSEnable(wDDSEnable),
+        .DDSReady(wDDSReady),
+        .init_1(32'd96878045),// sin(B)
+        .init_2(32'd1054193702),//2cos(B)
+
+        .out_1(wout_1),
+        .out_2(wout_2)
+    );
 endmodule

@@ -9,6 +9,7 @@
 // Author       : Adisorn Sommart
 // Remark       : New Creation
 //----------------------------------------//
+
 module SamplingCtrl (
     input   wire    Fg_CLK,
     input   wire    oIntBtn,
@@ -16,16 +17,21 @@ module SamplingCtrl (
 
     output  wire    DDSEnable,  
     output  wire    DDSReady,
-    output  wire    DDSMode
+    output  wire    [2:0]DDSMode
 );
 //----------------------------------------//
 // Signal Declaration
 //----------------------------------------//
     reg [2:0] rDDSMode;
     reg [13:0]rValue;
+
     reg [13:0] rCnt;
     reg rDDSEnable;
+
+    reg begin_ready;
     reg rDDSReady;
+    reg [6:0] rCnt_Ready;
+
     reg rPulse_In;
 //----------------------------------------//
 // Output Declaration
@@ -44,6 +50,7 @@ module SamplingCtrl (
         rCnt <= (rCnt < rValue) ? rCnt + 13'd1 : 13'd0;
     end
     end
+
     //Memmory and assign rValue
     always @(posedge Fg_CLK or negedge Fg_RESETn) begin : u_rValue
     if(~Fg_RESETn) begin
@@ -70,12 +77,12 @@ module SamplingCtrl (
     end
     end
     
-    always @(posedge Fg_CLK or negedge  Fg_RESETn) begin 
+    always @(posedge Fg_CLK or negedge  Fg_RESETn) begin : u_rDDSMode
     if(~Fg_RESETn) begin
         rDDSMode <= 3'd0;
     end
     else begin
-    if((oIntBtn && rCnt == rValue) || (rDDSEnable && rPulse_In)) begin
+    if((oIntBtn && rDDSMode == 0) || (rDDSEnable && rPulse_In)) begin
         rDDSMode <= (rDDSMode < 3'd4) ? rDDSMode + 3'd1 : 3'd0;
     end
     end 
@@ -93,21 +100,45 @@ module SamplingCtrl (
                 rPulse_In <= 1'd0;
             end
             else
-                rPulse_In = rPulse_In + 1;
+                rPulse_In = rPulse_In;
     end
     end
 
+    // initial ready
+    always @(posedge Fg_CLK or negedge Fg_RESETn) begin : u_rbegin_ready
+    if (!Fg_RESETn) begin
+        begin_ready <= 1'd1;
+    end else begin
+        begin_ready <= (rCnt_Ready < 80 &&  begin_ready == 1) ? 1'd1 : 0;
+    end
+    end
+
+    // ready counter
+    always @(posedge Fg_CLK or negedge Fg_RESETn) begin : u_rCnt_Ready
+    if (~Fg_RESETn) begin
+        rCnt_Ready <= 7'd0;
+    end
+    else begin
+        if (begin_ready == 1'd1) begin
+            rCnt_Ready <= (rCnt_Ready < 80) ? rCnt_Ready + 7'd1 :  7'd0;
+        end
+    end
+    end
+
+    //ready signal
     always @(posedge Fg_CLK or negedge Fg_RESETn) begin : u_rDDSReady
     if (~Fg_RESETn) begin
         rDDSReady <= 1'd0;
     end
     else begin 
-        if(rDDSReady < 80) begin
-            rDDSReady <= 1'd1;
+        if(rCnt_Ready < 80) begin
+            rDDSReady <= 1'd0;
         end 
         else    begin
-            rDDSReady <= 1'd0;
+            rDDSReady <= 1'd1;
+
         end
     end
+
     end
 endmodule

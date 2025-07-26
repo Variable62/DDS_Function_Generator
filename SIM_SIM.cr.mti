@@ -1,37 +1,23 @@
-C:/DDS_Function_Gen/simulation/RCC.v {1 {vlog -work work -stats=none C:/DDS_Function_Gen/simulation/RCC.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module RCC
-
-Top level modules:
-	RCC
-
-} {} {}} C:/DDS_Function_Gen/DDSFG/src/BTN_IF.v {1 {vlog -work work -stats=none C:/DDS_Function_Gen/DDSFG/src/BTN_IF.v
+C:/DDS_Function_Gen/DDSFG/src/BTN_IF.v {1 {vlog -work work -stats=none C:/DDS_Function_Gen/DDSFG/src/BTN_IF.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module BTN_IF
 
 Top level modules:
 	BTN_IF
 
-} {} {}} C:/DDS_Function_Gen/simulation/Testbrench.v {1 {vlog -work work -stats=none {C:\DDS_Function_Gen\simulation\Testbrench.v}
+} {} {}} C:/DDS_Function_Gen/simulation/RCC.v {1 {vlog -work work -stats=none C:/DDS_Function_Gen/simulation/RCC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RCC
+
+Top level modules:
+	RCC
+
+} {} {}} C:/DDS_Function_Gen/simulation/Testbrench.v {1 {vlog -work work -stats=none C:/DDS_Function_Gen/simulation/Testbrench.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Testbrench
 
 Top level modules:
 	Testbrench
-
-} {} {}} C:/DDS_Function_Gen/DDSFG/src/SamplingCtrl.v {1 {vlog -work work -stats=none C:/DDS_Function_Gen/DDSFG/src/SamplingCtrl.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module SamplingCtrl
-
-Top level modules:
-	SamplingCtrl
-
-} {} {}} C:/DDS_Function_Gen/DDSFG/src/clk_div.v {1 {vlog -work work -stats=none C:/DDS_Function_Gen/DDSFG/src/clk_div.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module clk_div
-
-Top level modules:
-	clk_div
 
 } {} {}} C:/DDS_Function_Gen/DDSFG/src/Reset_Gen.v {1 {vlog -work work -stats=none C:/DDS_Function_Gen/DDSFG/src/Reset_Gen.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -40,18 +26,32 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Reset_Gen
 
+} {} {}} C:/DDS_Function_Gen/DDSFG/src/clk_div.v {1 {vlog -work work -stats=none C:/DDS_Function_Gen/DDSFG/src/clk_div.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module clk_div
+
+Top level modules:
+	clk_div
+
+} {} {}} C:/DDS_Function_Gen/DDSFG/src/Oscillator.v {1 {vlog -work work -stats=none C:/DDS_Function_Gen/DDSFG/src/Oscillator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Oscillator
+
+Top level modules:
+	Oscillator
+
+} {} {}} C:/DDS_Function_Gen/DDSFG/src/gowin_rpll/pll_module.v {1 {vlog -work work -stats=none {C:\DDS_Function_Gen\DDSFG\src\gowin_rpll\pll_module.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pll_module
+
+Top level modules:
+	pll_module
+
 } {} {}} C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v {1 {vlog -work work -stats=none C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module DDS_Top
 
 Top level modules:
 	DDS_Top
-
-} {} {}} C:/DDS_Function_Gen/DDSFG/src/gowin_rpll/pll_module.v {1 {vlog -work work -stats=none C:/DDS_Function_Gen/DDSFG/src/gowin_rpll/pll_module.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module pll_module
-
-Top level modules:
-	pll_module
 
 } {} {}}

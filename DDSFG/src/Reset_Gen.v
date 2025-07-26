@@ -35,7 +35,7 @@ module Reset_Gen(
 //----------------------------------------//
 // Output Declaration
 //----------------------------------------//
-    assign Pll_RESETn       = rPllRESETn;
+    assign PllRESETn       = rPllRESETn;
     assign Fg_RESETn        = rFg_RESETn;   
 
 //----------------------------------------//
