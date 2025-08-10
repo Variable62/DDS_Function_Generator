@@ -10,10 +10,10 @@
 // Remark       : New Creation
 //----------------------------------------//
 module BTN_IF (
-    input       wire    Fg_CLK,
-    input       wire    Ext_RESETn,
-    input       wire    iExtBtn,
-    output      wire    oIntBtn
+    input       wire      Fg_CLK,
+    input       wire      Ext_RESETn,
+    input       wire      iExtBtn,
+    output      wire[2:0] oIntBtn
 );
 //----------------------------------------//
 // Signal Declaration

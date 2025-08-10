@@ -12,7 +12,7 @@
 
 module SamplingCtrl (
     input   wire    Fg_CLK,
-    input   wire    oIntBtn,
+    input   wire    [2:0]oIntBtn,
     input   wire    Fg_RESETn,
 
     output  wire    DDSEnable,  

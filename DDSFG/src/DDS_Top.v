@@ -21,13 +21,13 @@ module DDS_Top (
     wire    wLock;
     wire    wFg_RESETn;
     wire    wPll_RESETn;
-    wire    oIntBtn;
+    wire    [2:0]oIntBtn;
     wire    wDDSEnable;
-    wire    wDDSMode;
+    wire    [2:0]wDDSMode;
     wire    wDDSReady;
     wire    [31:0]wout_1;
     wire    [31:0]wout_2;
-
+    wire    [11:0]wOUT;
     Reset_Gen m_ResetGen (
         .Ext_RESETn(Ext_RESETn),
         .Ext_CLK(Ext_CLK),
@@ -77,4 +77,15 @@ module DDS_Top (
         .out_1(wout_1),
         .out_2(wout_2)
     );
+
+    Interpolator m_interp(
+        .Fg_CLK(Fg_CLK),
+        .Fg_RESETn(wFg_RESETn),
+        .out_1(wout_1),
+        .out_2(wout_2),
+        .DDSMode(wDDSMode),
+        .DDSEnable(wDDSEnable),
+        .InterpOut(wOUT)  
+    );
+
 endmodule

@@ -6,7 +6,7 @@ module Oscillator(
     input   wire[31:0]  init_1,
     input   wire[31:0]  init_2,
     
-    output  wire[31:0]  out_1,
+    output  wire[31:0]  out_1, 
     output  wire[31:0]  out_2
 ); 
 

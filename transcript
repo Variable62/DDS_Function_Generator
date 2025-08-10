@@ -1,0 +1,52 @@
+vsim -gui work.Testbrench -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary
+# vsim -gui work.Testbrench -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary 
+# Start time: 17:50:39 on Aug 06,2025
+# Loading work.Testbrench
+# Loading work.RCC
+# Loading work.DDS_Top
+# Loading work.Reset_Gen
+# Loading work.pll_module
+# Loading C:/DDS_Function_Gen/GowinLibrary.rPLL
+# Loading work.clk_div
+# Loading work.BTN_IF
+# Loading work.SamplingCtrl
+# Loading work.Oscillator
+# Loading work.Interpolator
+add wave -position insertpoint  \
+sim:/Testbrench/m_DDS_Top/Ext_CLK \
+sim:/Testbrench/m_DDS_Top/Ext_RESETn \
+sim:/Testbrench/m_DDS_Top/iExtBtn \
+sim:/Testbrench/m_DDS_Top/Fg_CLK \
+sim:/Testbrench/m_DDS_Top/Dac_CLK \
+sim:/Testbrench/m_DDS_Top/wPll_CLK \
+sim:/Testbrench/m_DDS_Top/wLock \
+sim:/Testbrench/m_DDS_Top/wFg_RESETn \
+sim:/Testbrench/m_DDS_Top/wPll_RESETn \
+sim:/Testbrench/m_DDS_Top/oIntBtn \
+sim:/Testbrench/m_DDS_Top/wDDSEnable \
+sim:/Testbrench/m_DDS_Top/wDDSMode \
+sim:/Testbrench/m_DDS_Top/wDDSReady \
+sim:/Testbrench/m_DDS_Top/wout_1 \
+sim:/Testbrench/m_DDS_Top/wout_2 \
+sim:/Testbrench/m_DDS_Top/wOUT
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run -all
+run -all
+pwd
+# C:/DDS_Function_Gen
+ls
+# DDSFG         README.md       document    src         work  
+# DDSFG.zip     SIM_SIM.cr.mti  report      transcript        
+# GowinLibrary  SIM_SIM.mpf     simulation  vsim.wlf          
+# End time: 20:32:04 on Aug 06,2025, Elapsed time: 2:41:25
+# Errors: 0, Warnings: 1
