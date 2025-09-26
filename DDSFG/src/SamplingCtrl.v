@@ -136,7 +136,6 @@ module SamplingCtrl (
         end 
         else    begin
             rDDSReady <= 1'd1;
-
         end
     end
 
