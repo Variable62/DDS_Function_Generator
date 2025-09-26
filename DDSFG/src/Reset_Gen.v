@@ -6,7 +6,7 @@
 //----------------------------------------//
 // Version      : 1.0
 // Date         : 16 Jun 2023
-// Author       : T. Sirus
+// Author       : T. Sirus  
 // Remark       : New Creation
 //----------------------------------------//
 module Reset_Gen(

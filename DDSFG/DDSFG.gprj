@@ -9,6 +9,7 @@
         <File path="src/DDS_Top.v" type="file.verilog" enable="1"/>
         <File path="src/Reset_Gen.v" type="file.verilog" enable="1"/>
         <File path="src/clk_div.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/romcoef_module.v" type="file.verilog" enable="1"/>
         <File path="src/gowin_rpll/pll_module.v" type="file.verilog" enable="1"/>
     </FileList>
 </Project>

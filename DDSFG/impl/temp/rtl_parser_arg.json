@@ -18,6 +18,10 @@
    "Type" : "verilog"
   },
   {
+   "Path" : "C:/DDS_Function_Gen/DDSFG/src/gowin_prom/romcoef_module.v",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "C:/DDS_Function_Gen/DDSFG/src/gowin_rpll/pll_module.v",
    "Type" : "verilog"
   }

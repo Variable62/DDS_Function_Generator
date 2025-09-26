@@ -12,8 +12,10 @@
 module DDS_Top (
         input       wire    Ext_CLK,
         input       wire    Ext_RESETn,
-        input       wire    iExtBtn,
-
+        input       wire    Ext_Rot_A,
+        input       wire    Ext_Rot_B,
+        input       wire    Ext_Btn_Rot_C,
+        input       wire    iExtBtn, // mode change button
         output      wire    Fg_CLK,
         output      wire    Dac_CLK
 );
@@ -21,13 +23,20 @@ module DDS_Top (
     wire    wLock;
     wire    wFg_RESETn;
     wire    wPll_RESETn;
-    wire    [2:0]oIntBtn;
+    wire    oIntBtn;
     wire    wDDSEnable;
     wire    [2:0]wDDSMode;
     wire    wDDSReady;
     wire    [31:0]wout_1;
     wire    [31:0]wout_2;
     wire    [11:0]wOUT;
+    wire    [10:0] wAddress;
+    wire    wRot_C;
+    wire    wFreqChange;
+    wire    [31:0]wSin1x;
+    wire    [31:0]wCos2x;
+    wire    [1:0] wModeS;
+ 
     Reset_Gen m_ResetGen (
         .Ext_RESETn(Ext_RESETn),
         .Ext_CLK(Ext_CLK),
@@ -57,6 +66,13 @@ module DDS_Top (
         .Ext_RESETn(wFg_RESETn)
     );
 
+    BTN_IF m_Btn_Rot_C (
+        .iExtBtn(Ext_Btn_Rot_C),
+        .Fg_CLK(Fg_CLK),
+        .oIntBtn(wRot_C),
+        .Ext_RESETn(wFg_RESETn)
+    );
+
     SamplingCtrl m_samp(
         .Fg_CLK(Fg_CLK),
         .oIntBtn(oIntBtn),
@@ -71,11 +87,12 @@ module DDS_Top (
         .Fg_RESETn(wFg_RESETn),
         .DDSEnable(wDDSEnable),
         .DDSReady(wDDSReady),
-        .init_1(32'd96878045),// sin(B)
-        .init_2(32'd1054193702),//2cos(B)
-
+        .init_1(wSin1x),// sin(B) 32'd96878045
+        .init_2(wCos2x),//2cos(B) 32'd1054193702
+        .FreqChng(wFreqChange),
         .out_1(wout_1),
-        .out_2(wout_2)
+        .out_2(wout_2),
+        .DDSMode(wDDSMode)
     );
 
     Interpolator m_interp(
@@ -86,6 +103,28 @@ module DDS_Top (
         .DDSMode(wDDSMode),
         .DDSEnable(wDDSEnable),
         .InterpOut(wOUT)  
+    );
+
+    RotaryEncoder m_RotEn(
+        .Fg_CLK(Fg_CLK),
+        .Ext_RESETn(Ext_RESETn),
+        .Rot_A(Ext_Rot_A),
+        .Rot_B (Ext_Rot_B),
+        .Rot_C(wRot_C),
+        .Address(wAddress),
+        .FreqChange(wFreqChange),
+        .Mode(wDDSMode)
+        // .Mode_Step(wModeS)
+    );
+
+    LookUpTable m_LookUpTable(
+        .Fg_CLK(Fg_CLK),
+        .Ext_RESETn(Ext_RESETn),
+        .Address(wAddress),
+        .out_1(wout_1),
+        .out_2(wout_2),
+        .sin1x(wSin1x),
+        .cos2x(wCos2x)
     );
 
 endmodule

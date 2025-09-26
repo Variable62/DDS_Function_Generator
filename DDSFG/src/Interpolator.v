@@ -29,7 +29,7 @@ module Interpolator (
 //----------------------------------------//
 // Output Declaration
 //----------------------------------------//
-    assign  InterpOut = rInterpOut;
+    assign  InterpOut = {~rInterpOut[11],rInterpOut[10:0]};
 //----------------------------------------//
 // Process Declaration
 //----------------------------------------//

@@ -1,6 +1,172 @@
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v was successful.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 0 failed with no errors.
 vsim -gui work.Testbrench -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary
 # vsim -gui work.Testbrench -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary 
-# Start time: 17:50:39 on Aug 06,2025
+# Start time: 21:09:52 on Sep 26,2025
+# Loading work.Testbrench
+# Loading work.RCC
+# Loading work.DDS_Top
+# Loading work.Reset_Gen
+# Loading work.pll_module
+# Loading C:/DDS_Function_Gen/GowinLibrary.rPLL
+# Loading work.clk_div
+# Loading work.BTN_IF
+# Loading work.SamplingCtrl
+# Loading work.Oscillator
+# Loading work.signalGen
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v failed with 1 errors.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v failed with 2 errors.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v failed with 6 errors.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 3 failed with 9 errors.
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v failed with 2 errors.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v failed with 6 errors.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 2 failed with 8 errors.
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v failed with 21 errors.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v failed with 5 errors.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 2 failed with 26 errors.
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v failed with 5 errors.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 1 failed with 5 errors.
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v failed with 2 errors.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 1 failed with 2 errors.
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v failed with 3 errors.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 1 failed with 3 errors.
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v failed with 1 errors.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 1 failed with 1 error.
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v was successful.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 0 failed with no errors.
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v was successful.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary work.Testbrench
+# End time: 22:34:12 on Sep 26,2025, Elapsed time: 1:24:20
+# Errors: 0, Warnings: 11
+# vsim -gui -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary work.Testbrench 
+# Start time: 22:34:12 on Sep 26,2025
 # Loading work.Testbrench
 # Loading work.RCC
 # Loading work.DDS_Top
@@ -12,41 +178,477 @@ vsim -gui work.Testbrench -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Functio
 # Loading work.SamplingCtrl
 # Loading work.Oscillator
 # Loading work.Interpolator
-add wave -position insertpoint  \
-sim:/Testbrench/m_DDS_Top/Ext_CLK \
-sim:/Testbrench/m_DDS_Top/Ext_RESETn \
-sim:/Testbrench/m_DDS_Top/iExtBtn \
-sim:/Testbrench/m_DDS_Top/Fg_CLK \
-sim:/Testbrench/m_DDS_Top/Dac_CLK \
-sim:/Testbrench/m_DDS_Top/wPll_CLK \
-sim:/Testbrench/m_DDS_Top/wLock \
-sim:/Testbrench/m_DDS_Top/wFg_RESETn \
-sim:/Testbrench/m_DDS_Top/wPll_RESETn \
-sim:/Testbrench/m_DDS_Top/oIntBtn \
-sim:/Testbrench/m_DDS_Top/wDDSEnable \
-sim:/Testbrench/m_DDS_Top/wDDSMode \
-sim:/Testbrench/m_DDS_Top/wDDSReady \
-sim:/Testbrench/m_DDS_Top/wout_1 \
-sim:/Testbrench/m_DDS_Top/wout_2 \
-sim:/Testbrench/m_DDS_Top/wOUT
+# Loading work.RotaryEncoder
+# Loading work.LookUpTable
+# Loading work.romcoef_module
+# Loading C:/DDS_Function_Gen/GowinLibrary.pROM
+# Loading work.signalGen
+add wave -position insertpoint sim:/Testbrench/m_DDS_Top/m_RotEn/*
 run
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v was successful.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Testbrench
+# Loading work.RCC
+# Loading work.DDS_Top
+# Loading work.Reset_Gen
+# Loading work.pll_module
+# Loading work.clk_div
+# Loading work.BTN_IF
+# Loading work.SamplingCtrl
+# Loading work.Oscillator
+# Loading work.Interpolator
+# Loading work.RotaryEncoder
+# Loading work.LookUpTable
+# Loading work.romcoef_module
+# Loading work.signalGen
 run
-run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
 run
 restart
 run
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v was successful.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 0 failed with no errors.
+add wave -position insertpoint sim:/Testbrench/m_DDS_Top/m_osc/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Testbrench
+# Loading work.RCC
+# Loading work.DDS_Top
+# Loading work.Reset_Gen
+# Loading work.pll_module
+# Loading work.clk_div
+# Loading work.BTN_IF
+# Loading work.SamplingCtrl
+# Loading work.Oscillator
+# Loading work.Interpolator
+# Loading work.LookUpTable
+# Loading work.romcoef_module
+# Loading work.signalGen
+# ** Error (suppressible): (vsim-3389) Port 'Fg_Clk' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'RESETn' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'C' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'FreqChng' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'Mode_Step' not found in the connected module (9th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+vsim -gui -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary work.Testbrench
+# vsim -gui -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary work.Testbrench 
+# Start time: 22:34:12 on Sep 26,2025
+# Loading work.Testbrench
+# Loading work.RCC
+# Loading work.DDS_Top
+# Loading work.Reset_Gen
+# Loading work.pll_module
+# Loading C:/DDS_Function_Gen/GowinLibrary.rPLL
+# Loading work.clk_div
+# Loading work.BTN_IF
+# Loading work.SamplingCtrl
+# Loading work.Oscillator
+# Loading work.Interpolator
+# Loading work.RotaryEncoder
+# Loading work.LookUpTable
+# Loading work.romcoef_module
+# Loading C:/DDS_Function_Gen/GowinLibrary.pROM
+# Loading work.signalGen
+# ** Error (suppressible): (vsim-3389) Port 'Fg_Clk' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'RESETn' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'C' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'FreqChng' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'Mode_Step' not found in the connected module (9th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# Error loading design
+# End time: 22:45:26 on Sep 26,2025, Elapsed time: 0:11:14
+# Errors: 10, Warnings: 1
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v was successful.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary work.Testbrench
+# vsim -gui -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary work.Testbrench 
+# Start time: 22:46:03 on Sep 26,2025
+# Loading work.Testbrench
+# Loading work.RCC
+# Loading work.DDS_Top
+# Loading work.Reset_Gen
+# Loading work.pll_module
+# Loading C:/DDS_Function_Gen/GowinLibrary.rPLL
+# Loading work.clk_div
+# Loading work.BTN_IF
+# Loading work.SamplingCtrl
+# Loading work.Oscillator
+# Loading work.Interpolator
+# Loading work.RotaryEncoder
+# Loading work.LookUpTable
+# Loading work.romcoef_module
+# Loading C:/DDS_Function_Gen/GowinLibrary.pROM
+# Loading work.signalGen
+# ** Error (suppressible): (vsim-3389) Port 'Fg_Clk' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'RESETn' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'C' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'FreqChng' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'Mode_Step' not found in the connected module (9th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# Error loading design
+# End time: 22:46:03 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 2
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v was successful.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary work.Testbrench
+# vsim -gui -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary work.Testbrench 
+# Start time: 22:46:58 on Sep 26,2025
+# Loading work.Testbrench
+# Loading work.RCC
+# Loading work.DDS_Top
+# Loading work.Reset_Gen
+# Loading work.pll_module
+# Loading C:/DDS_Function_Gen/GowinLibrary.rPLL
+# Loading work.clk_div
+# Loading work.BTN_IF
+# Loading work.SamplingCtrl
+# Loading work.Oscillator
+# Loading work.Interpolator
+# Loading work.RotaryEncoder
+# Loading work.LookUpTable
+# Loading work.romcoef_module
+# Loading C:/DDS_Function_Gen/GowinLibrary.pROM
+# Loading work.signalGen
+# ** Error (suppressible): (vsim-3389) Port 'Fg_Clk' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'RESETn' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'C' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'FreqChng' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'Mode_Step' not found in the connected module (9th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# Error loading design
+# End time: 22:46:59 on Sep 26,2025, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 2
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v failed with 1 errors.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 1 failed with 1 error.
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v was successful.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary work.Testbrench
+# vsim -gui -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary work.Testbrench 
+# Start time: 22:50:22 on Sep 26,2025
+# Loading work.Testbrench
+# Loading work.RCC
+# Loading work.DDS_Top
+# Loading work.Reset_Gen
+# Loading work.pll_module
+# Loading C:/DDS_Function_Gen/GowinLibrary.rPLL
+# Loading work.clk_div
+# Loading work.BTN_IF
+# Loading work.SamplingCtrl
+# Loading work.Oscillator
+# Loading work.Interpolator
+# Loading work.RotaryEncoder
+# Loading work.LookUpTable
+# Loading work.romcoef_module
+# Loading C:/DDS_Function_Gen/GowinLibrary.pROM
+# Loading work.signalGen
+# ** Error (suppressible): (vsim-3389) Port 'C' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'FreqChng' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error (suppressible): (vsim-3389) Port 'Mode_Step' not found in the connected module (9th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# Error loading design
+# End time: 22:50:22 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 3
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Load canceled
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v was successful.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 0 failed with no errors.
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v failed with 1 errors.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v failed with 1 errors.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 2 failed with 2 errors.
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v was successful.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary work.Testbrench
+# vsim -gui -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary work.Testbrench 
+# Start time: 22:54:58 on Sep 26,2025
+# Loading work.Testbrench
+# Loading work.RCC
+# Loading work.DDS_Top
+# Loading work.Reset_Gen
+# Loading work.pll_module
+# Loading C:/DDS_Function_Gen/GowinLibrary.rPLL
+# Loading work.clk_div
+# Loading work.BTN_IF
+# Loading work.SamplingCtrl
+# Loading work.Oscillator
+# Loading work.Interpolator
+# Loading work.RotaryEncoder
+# Loading work.LookUpTable
+# Loading work.romcoef_module
+# Loading C:/DDS_Function_Gen/GowinLibrary.pROM
+# Loading work.signalGen
+# ** Error: (vsim-3063) Port 'C' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# ** Error: (vsim-3063) Port 'FreqChng' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Testbrench/m_DDS_Top/m_RotEn File: C:/DDS_Function_Gen/DDSFG/src/DDS_Top.v Line: 108
+# Error loading design
+# End time: 22:54:59 on Sep 26,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 4
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v was successful.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary work.Testbrench
+# vsim -gui -L C:/DDS_Function_Gen/GowinLibrary -Lf C:/DDS_Function_Gen/GowinLibrary work.Testbrench 
+# Start time: 22:55:47 on Sep 26,2025
+# Loading work.Testbrench
+# Loading work.RCC
+# Loading work.DDS_Top
+# Loading work.Reset_Gen
+# Loading work.pll_module
+# Loading C:/DDS_Function_Gen/GowinLibrary.rPLL
+# Loading work.clk_div
+# Loading work.BTN_IF
+# Loading work.SamplingCtrl
+# Loading work.Oscillator
+# Loading work.Interpolator
+# Loading work.RotaryEncoder
+# Loading work.LookUpTable
+# Loading work.romcoef_module
+# Loading C:/DDS_Function_Gen/GowinLibrary.pROM
+# Loading work.signalGen
+add wave -position insertpoint sim:/Testbrench/m_DDS_Top/m_RotEn/*
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 run
 run
-run -all
-run -all
-pwd
-# C:/DDS_Function_Gen
-ls
-# DDSFG         README.md       document    src         work  
-# DDSFG.zip     SIM_SIM.cr.mti  report      transcript        
-# GowinLibrary  SIM_SIM.mpf     simulation  vsim.wlf          
-# End time: 20:32:04 on Aug 06,2025, Elapsed time: 2:41:25
+restart
+run
+add wave -position insertpoint sim:/Testbrench/m_DDS_Top/m_interp/*
+restart
+run
+restart
+run
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v was successful.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 0 failed with no errors.
+add wave -position insertpoint sim:/Testbrench/m_DDS_Top/m_interp/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Testbrench
+# Loading work.RCC
+# Loading work.DDS_Top
+# Loading work.Reset_Gen
+# Loading work.pll_module
+# Loading work.clk_div
+# Loading work.BTN_IF
+# Loading work.SamplingCtrl
+# Loading work.Oscillator
+# Loading work.Interpolator
+# Loading work.LookUpTable
+# Loading work.romcoef_module
+run
+# Compile of BTN_IF.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of DDS_Top.v was successful.
+# Compile of Interpolator.v was successful.
+# Compile of LookUpTable.v was successful.
+# Compile of Oscillator.v was successful.
+# Compile of Reset_Gen.v was successful.
+# Compile of RotaryEn.v was successful.
+# Compile of SamplingCtrl.v was successful.
+# Compile of pll_module.v was successful.
+# Compile of romcoef_module.v was successful.
+# Compile of RCC.v was successful.
+# Compile of SignalGen.v was successful.
+# Compile of Testbrench.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Testbrench
+# Loading work.RCC
+# Loading work.DDS_Top
+# Loading work.Reset_Gen
+# Loading work.pll_module
+# Loading work.clk_div
+# Loading work.BTN_IF
+# Loading work.SamplingCtrl
+# Loading work.Oscillator
+# Loading work.Interpolator
+# Loading work.LookUpTable
+# Loading work.romcoef_module
+run
+restart
+run
+restart
+run
+restart
+run
+add wave -position insertpoint sim:/Testbrench/m_DDS_Top/m_osc/u_out_1_a/*
+# ** UI-Msg: (vish-4014) No objects found matching '/Testbrench/m_DDS_Top/m_osc/u_out_1_a/*'.
+add wave -position insertpoint sim:/Testbrench/m_DDS_Top/m_osc/*
+restart
+run
+add wave -position insertpoint sim:/Testbrench/m_DDS_Top/m_osc/*
+restart
+run
+# End time: 00:04:39 on Sep 27,2025, Elapsed time: 1:08:52
 # Errors: 0, Warnings: 1

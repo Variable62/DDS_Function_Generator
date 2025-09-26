@@ -19,9 +19,8 @@ module RCC (
     end
     initial begin : u_rRESETn
         rRESETn <= 1'd0;
-        repeat (10) begin
-            @(posedge rCLK);
-        end
+        repeat (10) @(posedge rCLK);
         rRESETn <= 1'd1;
+        repeat (100_000) @(posedge rCLK);
     end
 endmodule
